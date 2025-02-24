@@ -35,7 +35,7 @@ jobs:
 
       - name: pull
         run: |
-          git pull origin master
+          git pull origin main
 
       - name: Commit and Push Changes
         env:
